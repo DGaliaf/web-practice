@@ -1,0 +1,108 @@
+.box p {
+    color: red;
+}
+
+hr {
+    border-width: 5px;
+}
+
+#task1 > p {
+    background-color: red;
+}
+
+#task2 ~ p.task2 {
+    background-color: rgb(30, 255, 0);
+}
+
+#task3 + p {
+    background-color: lightblue;
+}
+
+a[href="https://www.google.com"]:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a[href="https://yandex.ru"]:link{
+    background: black;
+    color: violet;
+}
+
+a[href="https://yandex.ru"]:visited {
+    background-color: gray;
+    color: red;
+}
+
+a[href="https://yandex.ru"]:hover {
+    font-size: large;
+}
+
+a[href="https://yandex.ru"]:active {
+    background: greenyellow;
+}
+
+.paragraph1:first-child{
+    color: aquamarine
+}
+
+.div1 p:first-child i {
+    color: blue;
+    font-family: Verdana;
+}
+
+.div2 p > i:first-child {
+    color: rgb(0, 255, 4);
+    font-family: Verdana;
+}
+
+.div3::first-line {
+    color: red;
+}
+
+.ul1 li:first-child {
+    color:chartreuse
+}
+
+.ul2 li:first-child {
+    color:red;
+    font-weight: bold;
+}
+
+.ul3 li:last-child {
+    color:crimson;
+    font-family: Verdana;
+}
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n + 1), 
+.second span:nth-child(2n + 1) {
+  background-color: lime;
+}
+
+.before::before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuhPS8lSmJYMUxe8Yytj_AAhYfgBF1sLoGcUygTBnivYMTXE_ThPizlqkbr5Kx6ef5JQA&usqp=CAU);
+}
+
+a[href="#"]::after{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHw8TrCzADp6bJvqMQDg-uJqdjd2iJxoyKXkhujOQJSPFQLJeNEDJYfIQK7d645tqslgg&usqp=CAU);
+}
+
+.container h1{
+    color: blue;
+}
+
+.container h2{
+    background: blue;
+    color:white
+}
+
+.container p > span{
+    font-size: 200%;
+}

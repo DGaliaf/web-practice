@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="“en”">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ходос Данил" />
+    <meta name="description" content="HTML with CSS website" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Интересные факты</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Интересные <span class="facts-span">факты</span></h1>
+    </header>
+    <main id="content">
+      <!-- Таблица фактов -->
+      <div>
+        <table>
+          <tr>
+            <th>Номер</th>
+            <th>Факт</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="usual-fact">
+              Среднее облако весит порядка 500 тонн, столько же весят 80 слонов.
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="usual-fact">
+              Скорость распространения лавы после извержения, близка к скорости
+              бега гончей.
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Жемчужина_Лао-цзы">Самая крупная жемчужина в мире достигает 6 килограммов в весе.</a>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td class="important-fact">
+                Библия – книга, которую чаще всего воруют в американских магазинах.
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td class="important-fact">
+                Саудовская Аравия не содержит рек.
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td class="usual-fact">
+                Ежедневно 60 человек становятся миллионерами.
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td class="important-fact">Люди на 70% состоят из воды</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Форма для поиска фактов -->
+      <form action="">
+        <input
+          type="search"
+          placeholder="Введите номер факта или ключевое слово"
+          name="search"
+        />
+        <button type="submit" name="submit">Найти</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ходос Данил" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="box"><p>Text in .box</p></div>
+    <p>Text not in .box</p>
+    <hr />
+
+    <div id="task1">
+      родитель
+      <p>окрасит в красный, т.к. ребенок родителя</p>
+      <pre><p>не окрасит в красный</p></pre>
+      <p>окрасит</p>
+      <p>родитель</p>
+    </div>
+    <hr />
+    <div id="task2">
+      <p class="task2">
+        этот параграф не является братом или сестрой дива, это ребенок
+      </p>
+    </div>
+    <p class="task2">является</p>
+    <hr />
+    <div id="task3">
+      <p>ребенок</p>
+    </div>
+    <p>соседний комбинаро</p>
+    <p>не примыкает ик div</p>
+    <hr />
+    <p><a href="https://www.google.com">Google</a></p>
+    <p><a href="https://yandex.ru">Yandex</a></p>
+    <hr />
+    <div>
+      <p class="paragraph1">meow 1</p>
+      <p>meow 2</p>
+      <p>meow 3</p>
+    </div>
+    <hr />
+    <div>
+      <ul class="ul1">
+        <li>TEXTTEXT1</li>
+        <li>
+          TEXTTEXT2
+          <ul class="ul1">
+            <li>A</li>
+            <li>B</li>
+          </ul>
+        </li>
+        <li>
+          TEXTTEXT3
+          <ul class="ul1">
+            <li>C</li>
+            <li>D</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div class="div1">
+      <p>TEXT <i>TEXT1</i> TEXT2 <i>TEXT3</i></p>
+      <p><i>TEXT5</i> TEXT6 <i>TEXT7</i> TEXT8</p>
+      <p>TEXT9 <i>TEXT10</i> TEXT11 <i>TEXT12</i></p>
+    </div>
+    <hr />
+    <div class="div2">
+      <p>TEXT <i>TEXT1</i> TEXT2 <i>TEXT3</i></p>
+      <p><i>TEXT5</i> TEXT6 <i>TEXT7</i> TEXT8</p>
+      <p>TEXT9 <i>TEXT10</i> TEXT11 <i>TEXT12</i></p>
+    </div>
+    <hr />
+    <ul class="ul2">
+      <li>Tex1</li>
+      <li>Tex2</li>
+      <li>
+        Tex3
+        <ul class="ul2">
+          <li>Tex3.1</li>
+          <li>Tex3.2</li>
+          <li>Tex3.3</li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <ul class="ul3">
+      <li>
+        Tex1
+        <ul class="ul3">
+          <li>Tex3.1</li>
+          <li>Tex3.2</li>
+          <li>Tex3.3</li>
+        </ul>
+      </li>
+      <li>Tex2</li>
+      <li>Tex3</li>
+    </ul>
+    <hr />
+    <h3>
+      <code>span:nth-child(2n+1)</code>, БЕЗ элемента <code>&lt;em&gt;</code> в
+      группе элементов-потомков.
+    </h3>
+    <p>Элементы 1, 3, 5 и 7 будут выбраны.</p>
+    <div class="first">
+      <span>Span 1!</span>
+      <span>Span 2</span>
+      <span>Span 3!</span>
+      <span>Span 4</span>
+      <span>Span 5!</span>
+      <span>Span 6</span>
+      <span>Span 7!</span>
+    </div>
+    <br />
+    <h3>
+      <code>span:nth-child(2n+1)</code>, С элементом <code>&lt;em&gt;</code> в
+      группе элементов-потомков.
+    </h3>
+    <p>
+      Элементы 1, 5 и 7 будут выбраны.<br />
+      3 используется в подсчёте потому что это элемент-потомок, но он не выбран
+      потому что он не <code>&lt;span&gt;</code>.
+    </p>
+    <div class="second">
+      <span>Span!</span>
+      <span>Span</span>
+      <em>Это `em`.</em>
+      <span>Span</span>
+      <span>Span!</span>
+      <span>Span</span>
+      <span>Span!</span>
+      <span>Span</span>
+    </div>
+    <hr />
+    <p class="before">TEXT1</p>
+    <p class="before">TEXT2</p>
+    <p>TEXT3</p>
+    <p class="before">TEXT4</p>
+    <p>TEXT5</p>
+    <hr />
+    <a href="#">LINK1</a>
+    <a href="#">LINK2</a>
+    <a href="@">LINK3</a>
+    <a href="#">LINK4</a>
+    <hr />
+    <div class="div3">
+      SOMETHING
+      <p>SOMETHIG...</p>
+    </div>
+    <hr />
+    <div class="container">
+      <h1>Заголовок</h1>
+      <p>можно <span>поменять тескт</span>, на свой но код подгонять нельзя.</p>
+      <h2>Заголовок 2 уровня</h2>
+      <p>
+        Ваша задача Сделайте заголовки h1 синими. Присвойте заголовкам h2 синий
+        фон и белый текст. Заставить текст, заключенный в диапазон, иметь размер
+        шрифта 200%
+      </p>
+    </div>
+  </body>
+</html>
